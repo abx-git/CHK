@@ -16,6 +16,13 @@
       "registration": "Kurzliste",
       "description": "Kompakte Cockpit-Kurzliste inkl. Platzrunden",
       "file": "lists/hk36-r-super-dimona-kurz.json"
+    },
+    {
+      "id": "SF25-C-FALKE",
+      "name": "SF 25 C Falke",
+      "registration": "",
+      "description": "Tägliche Flugklarkontrolle, Betriebscheckliste und Notverfahren",
+      "file": "lists/sf25-c-falke.json"
     }
   ]
 }

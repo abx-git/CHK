@@ -1,0 +1,1043 @@
+{
+  "kind": "chk.list",
+  "schemaVersion": 3,
+  "description": "Tägliche Flugklarkontrolle, Betriebscheckliste und Notverfahren",
+  "aircraft": {
+    "id": "SF25-C-FALKE",
+    "name": "SF 25 C Falke",
+    "registration": ""
+  },
+  "checklist": {
+    "id": "SF25-C-FALKE",
+    "aircraftId": "SF25-C-FALKE",
+    "mode": "",
+    "phases": [
+      {
+        "id": "sf25_flugwerk",
+        "title": "Tägliche Flugklarkontrolle — Flugwerk",
+        "items": [
+          {
+            "id": "sf25_flugwerk-1",
+            "text": "Hauptbeschläge und Flügel-Rumpfaufhängungen (4 Stellen): Geprüft, Hauptbolzen und hintere Flügelaufhängungsbolzen gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-2",
+            "text": "Querruderanschlüsse im Rumpf: Angeschlossen und gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-3",
+            "text": "Störklappenanschlüsse im Rumpf: Angeschlossen und gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-4",
+            "text": "Ruderprobe und Freigängigkeit aller Ruder: Vom Führersitz aus geprüft, freigängig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-5",
+            "text": "Rechter Steuerknüppeleinsatz: Festsitz kontrolliert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-6",
+            "text": "Fußsteuerung und Bugradsteuerung: Geprüft, Verstellpedale eingerastet",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-7",
+            "text": "Seilrollen, Seilführung und Steuerseile: Ohne Verschleiß und Knicke",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-8",
+            "text": "Störklappenfunktion: Vom Führersitz aus geprüft",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-9",
+            "text": "Radbremsen: Wirkung und richtiger Einsatz kontrolliert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-10",
+            "text": "Instrumente und Funksprechprobe: Funktion geprüft, Funksprechprobe durchgeführt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-11",
+            "text": "Staudruckanlage: Kontrolliert, über Handlochdeckel unter Höhenleitwerk bei Bedarf entwässert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-12",
+            "text": "Anschnallgurte: Zustand und Befestigung geprüft",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-13",
+            "text": "Gepäck: Mit Gurten verzurrt, maximal 10 kg",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-14",
+            "text": "Fremdkörperkontrolle Kabine: Durchgeführt, keine losen Gegenstände",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-15",
+            "text": "Haube, Haubenverriegelung, Haubennotabwurf und Notsichtfenster: Geprüft und funktionstüchtig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-16",
+            "text": "Verkleidungsbleche unter Flügelholm: Beidseitig vorhanden und fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-17",
+            "text": "Stützräder (bei Zentralradausführung): In Ordnung und richtig angebracht",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-18",
+            "text": "Querruderantriebe außen im Flügel: Kontrolliert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-19",
+            "text": "Flügelklappvorrichtung und Querruderantriebe an Klappstellen (falls vorhanden): Gesichert, Klappstellenverkleidung sitzt fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-20",
+            "text": "Querruderbefestigungen: Geprüft und gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-21",
+            "text": "Vordere Höhenflossenaufhängung: Angeflanscht, angezogen und gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-22",
+            "text": "Höhenruderanschluss: Angeschlossen und gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-23",
+            "text": "Höhenrudertrimmung: Anschluss kontrolliert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-24",
+            "text": "Seitenruderlager, Seilanschlüsse und Spornradsteuerstange: Geprüft, gesichert, seitenrichtiger Ausschlag kontrolliert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-25",
+            "text": "Spornrad und Drehachse: Freigängig und leichtgängig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-26",
+            "text": "Rumpfvorderteil unten und Rumpfboden: Unbeschädigt, kein Abgaseintritt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-27",
+            "text": "Reifendruck und Reifenzustand: Hauptrad 2,1 bar (bzw. 1,8 bar gefedert / 2,5 bar starr), Spornrad 1,5 bar, Bugrad 1,5 bar",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-28",
+            "text": "Beplankung, Bespannung und Lackierung: Ohne Schäden",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-29",
+            "text": "Rangiergabel des Bugrades: Entfernt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_flugwerk-30",
+            "text": "Schwerpunktskupplung: Funktion kontrolliert",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_triebwerk",
+        "title": "Tägliche Flugklarkontrolle — Triebwerk",
+        "items": [
+          {
+            "id": "sf25_triebwerk-1",
+            "text": "Motorbauteile, Schrauben, Bolzen und Sicherungen: Auf Festsitz und Vollständigkeit kontrolliert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-2",
+            "text": "Kühlluftführung und Zündleitungen: Festsitzend, ohne Scheuerstellen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-3",
+            "text": "Gas-, Choke-, Heizungs-, Belüftungs- und Kühlluftklappenbetätigung: Freigängig und feststellbar",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-4",
+            "text": "Ölvorrat: Geprüft (nach ca. 0,5 min Leerlauf), mindestens mittig zwischen Peilstabmarken, 2,0 bis 3,0 Liter",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-5",
+            "text": "Kühlflüssigkeitsvorrat im Überlaufgefäß: Geprüft, im kalten Zustand mindestens 2 bis 3 cm Stand",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-6",
+            "text": "Öl-, Kraftstoff- und Kühlsystem: Dicht, ohne Scheuerstellen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-7",
+            "text": "Kraftstoffentwässerung (Tankdrainer): Vor Bewegen des Motorseglers betätigt und entwässert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-8",
+            "text": "Motoraufhängung: Geprüft und gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-9",
+            "text": "Auspuffanlage: Unbeschädigt, dicht und fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-10",
+            "text": "Fremdkörperkontrolle im Motorraum: Durchgeführt, frei von Fremdkörpern",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-11",
+            "text": "Motorverkleidung: Rissfrei, alle Patentriegel korrekt verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-12",
+            "text": "Kraftstoffvorrat: Ausreichend für Flugaufgabe kontrolliert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_triebwerk-13",
+            "text": "Tankentlüftung und Tankdeckel: Originaldeckel mit Entlüftung fest verschlossen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_luftschraube",
+        "title": "Tägliche Flugklarkontrolle — Luftschraube",
+        "items": [
+          {
+            "id": "sf25_luftschraube-1",
+            "text": "Propellerblätter und Spinner: Sichtprüfung durchgeführt, riss- und kerbenfrei, PU-Schutzbänder intakt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_luftschraube-2",
+            "text": "Blattspitzenspiel (bei Verstellpropeller): Kontrolliert, maximal 3 mm",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_luftschraube-3",
+            "text": "Blattwinkelspiel (bei Verstellpropeller): Kontrolliert, maximal 2 Grad",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_luftschraube-4",
+            "text": "Propeller-Akkumulator Betriebsdruck (MTV 21A): 125 psi (9,0 bar) kontrolliert (alle 50 h)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_luftschraube-5",
+            "text": "Blattverstellung und Elektrik (MTV 1A): Verstellung bei Hauptschalter Ein und stehendem Triebwerk geprüft, Schleifringe und Schleifkohlen kontrolliert",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_startcheck",
+        "title": "Kontrolle vor Inbetriebnahme (Startcheck-Vorbereitung)",
+        "items": [
+          {
+            "id": "sf25_startcheck-1",
+            "text": "Klappflügel (falls vorhanden): Gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-2",
+            "text": "Kabinenhaube: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-3",
+            "text": "Anschnallgurte: Angelegt und fest gestrafft",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-4",
+            "text": "Trimmung: In Startstellung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-5",
+            "text": "360-Grad-Spornrad (falls vorhanden): Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-6",
+            "text": "Bremsklappen: Eingefahren und verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-7",
+            "text": "Ruderkontrolle: Freigängig und seitenrichtig durchgeführt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-8",
+            "text": "Kraftstoffhahn: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-9",
+            "text": "Kraftstoffvorrat: Ausreichend",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-10",
+            "text": "Kühlluftklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_startcheck-11",
+            "text": "Propeller (falls Verstellpropeller): In Startstellung (kleine Steigung bzw. AUTO)",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_vor_anlassen",
+        "title": "Vor dem Anlassen des Motors",
+        "items": [
+          {
+            "id": "sf25_vor_anlassen-1",
+            "text": "Gashebel-Freigängigkeit: Bis Vollgasanschlag und zurück auf Leerlauf geprüft (bei Zündung Aus, Bremse gesetzt)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_vor_anlassen-2",
+            "text": "Propellerdurchdrehen von Hand (bei kühler Witterung): Mehrmals in Drehrichtung durchgedreht, niemals rückwärts; Zündung Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_vor_anlassen-3",
+            "text": "Sicherungsautomaten: Alle hineingedrückt (außer empfindliche Avionik)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_vor_anlassen-4",
+            "text": "Empfindliche elektronische Geräte / Avionik: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_vor_anlassen-5",
+            "text": "Parkbremse: Gesetzt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_vor_anlassen-6",
+            "text": "Kabinenhaube: Geschlossen und verriegelt",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_anlassen",
+        "title": "Anlassen des Motors",
+        "items": [
+          {
+            "id": "sf25_anlassen-1",
+            "text": "Kühlluftklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-2",
+            "text": "Benzinhahn: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-3",
+            "text": "Elektrische Kraftstoffzusatzpumpe (falls vorhanden): Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-4",
+            "text": "Choke: Gezogen (bei betriebswarmem Triebwerk: Aus)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-5",
+            "text": "Vergaservorwärmung (falls vorhanden): Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-6",
+            "text": "Propellerverstellung: Kleine Steigung bzw. AUTO",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-7",
+            "text": "Gashebel: Leerlauf bzw. maximal 10 Prozent Arbeitsweg",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-8",
+            "text": "Hauptschalter: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-9",
+            "text": "Zündschalter: Ein (BOTH)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-10",
+            "text": "Propellerkreis: Frei, Sicherungsposten links warnt Umfeld",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-11",
+            "text": "Anlasserknopf: Drücken (maximal 10 Sekunden, danach 2 Minuten Kühlpause)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-12",
+            "text": "Gashebel nach Anspringen: Auf ca. 2500 U/min einstellen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-13",
+            "text": "Öldruck: Überwachen, Anstieg innerhalb von 10 Sekunden, über 2,0 bar vor Drehzahlerhöhung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_anlassen-14",
+            "text": "Choke nach Rundlauf: Zurückstellen (Aus)",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_warmlaufen",
+        "title": "Warmlaufen und Triebwerkskontrolle (Standprobe)",
+        "items": [
+          {
+            "id": "sf25_warmlaufen-1",
+            "text": "Parkbremse: Gesetzt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_warmlaufen-2",
+            "text": "Höhenruder: Voll gezogen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_warmlaufen-3",
+            "text": "Warmlaufdrehzahl: 2 Minuten bei 2000 U/min, danach 2500 U/min bis Öltemperatur mindestens 50 Grad C",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_warmlaufen-4",
+            "text": "Öltemperatur: Mindestens 50 Grad C (maximal 140 Grad C bei 912 A, 130 Grad C bei 912 S)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_warmlaufen-5",
+            "text": "Zylinderkopftemperatur: Maximal 120 Grad C",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_warmlaufen-6",
+            "text": "Öldruck im Betrieb: 2,0 bis 5,0 bar (unter 3500 U/min mindestens 0,8 bar)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_warmlaufen-7",
+            "text": "Magnetprobe: Bei 4000 U/min prüfen: Drehzahlabfall je Kreis maximal 300 U/min, Differenz maximal 120 U/min",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_warmlaufen-8",
+            "text": "Gasannahme / Vollaststandlauf: Kurzzeitig Vollgas prüfen (Standdrehzahl gemäß Handbuch), danach kurzer Kühllauf",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_rollen",
+        "title": "Rollen",
+        "items": [
+          {
+            "id": "sf25_rollen-1",
+            "text": "Spornradverriegelung: Für enge Kurven ggf. entriegelt, vor Start zwingend verriegeln",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_rollen-2",
+            "text": "Hackenbremse / Radbremsen: Funktion und gleichmäßige Bremswirkung prüfen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_rollen-3",
+            "text": "Kühlluftklappe: Auf",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_start_steigflug",
+        "title": "Start und Steigflug (Eigenstart)",
+        "items": [
+          {
+            "id": "sf25_start_steigflug-1",
+            "text": "Startcheck (Instrumentenbrett): Vollständig durchgeführt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-2",
+            "text": "Kabinenhaube: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-3",
+            "text": "Anschnallgurte: Fest angelegt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-4",
+            "text": "Trimmung: Neutral",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-5",
+            "text": "Bremsklappen: Eingefahren und verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-6",
+            "text": "Spornrad: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-7",
+            "text": "Propeller: In Startstellung (kleine Steigung / AUTO)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-8",
+            "text": "Kühlluftklappe: Voll geöffnet",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-9",
+            "text": "Elektrische Kraftstoffzusatzpumpe (falls vorhanden): Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-10",
+            "text": "Steuerknüppel beim Anrollen: Neutralstellung (nicht drücken)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-11",
+            "text": "Leistung beim Start: Zügig Vollgas, maximal 5800 U/min (maximal 5 Minuten Startleistung)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-12",
+            "text": "Abhebegeschwindigkeit: Ca. 70 km/h (bei Regen / nassem Flügel mindestens 85 km/h)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-13",
+            "text": "Steigfluggeschwindigkeit: Mindestens 90 km/h (ROTAX 912 A) bzw. 95 km/h (ROTAX 912 S); bei Regen ca. 105 km/h",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-14",
+            "text": "Leistungsreduzierung (in 50 bis 80 m Höhe): Festpropeller ca. 150 U/min reduzieren, Verstellpropeller auf 5000 bis 5500 U/min einregeln",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_start_steigflug-15",
+            "text": "Dauerleistung (spätestens nach 5 Minuten): Maximal 4800 U/min, bei Verstellpropeller maximal 22 inHg Ladedruck",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_windenstart",
+        "title": "Windenstart (nur Segelflugmodus)",
+        "items": [
+          {
+            "id": "sf25_windenstart-1",
+            "text": "Triebwerk: Stillstehend, Propeller waagrecht",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_windenstart-2",
+            "text": "Sollbruchstelle im Schleppseil: 500 daN (bis 580 kg) bzw. 850 daN (610/650 kg)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_windenstart-3",
+            "text": "Trimmung: Leicht kopflastig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_windenstart-4",
+            "text": "Bremsklappen: Eingefahren und verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_windenstart-5",
+            "text": "Haube: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_windenstart-6",
+            "text": "Schleppgeschwindigkeit (Vw): Maximal 100 km/h (bis 580/610 kg) bzw. 110 km/h (650 kg)",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_reiseflug",
+        "title": "Reiseflug",
+        "items": [
+          {
+            "id": "sf25_reiseflug-1",
+            "text": "Elektrische Kraftstoffzusatzpumpe: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_reiseflug-2",
+            "text": "Motordrehzahl: Maximal 4800 U/min (günstigster Reiseflug ca. 4200 bis 4400 U/min)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_reiseflug-3",
+            "text": "Ladedruck (bei Verstellpropeller): Gemäß Dauerbetriebsgrenzen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_reiseflug-4",
+            "text": "Triebwerksparameter: Öldruck 2,0 bis 5,0 bar, Öltemperatur 50 bis 140 Grad C (912 A) bzw. 130 Grad C (912 S), Zylinderkopf maximal 120 Grad C",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_reiseflug-5",
+            "text": "Fluggeschwindigkeit bei Böigkeit (Vra / Va): Maximal 150 bis 165 km/h je nach Masse und Rüststand, keine vollen Ruderausschläge",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_reiseflug-6",
+            "text": "Höchstzulässige Geschwindigkeit (Vne): 190 km/h (bzw. 212 km/h mit Änd. 195) keinesfalls überschreiten, maximal 1/3 Ruderausschlag",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_stillsetzen",
+        "title": "Stillsetzen des Motors im Flug",
+        "items": [
+          {
+            "id": "sf25_stillsetzen-1",
+            "text": "Kühllauf: Ca. 30 Sekunden bei ca. 3000 U/min durchführen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_stillsetzen-2",
+            "text": "Fluggeschwindigkeit zum Abstellen: Ca. 90 km/h (während Propellerauslauf gering halten)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_stillsetzen-3",
+            "text": "Empfindliche elektrische Geräte / Verbraucher: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_stillsetzen-4",
+            "text": "Gashebel: Leerlauf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_stillsetzen-5",
+            "text": "Zündschalter: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_stillsetzen-6",
+            "text": "Segelstellung (MTV 21A hydraulisch): Bei 21 inHg Drehzahl über 4200 U/min einstellen, Gas auf 3500 U/min reduzieren, Verstellknopf ganz nach hinten ziehen, Zündung Aus, Gas Leerlauf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_stillsetzen-7",
+            "text": "Segelstellung (MTV 1A elektrisch): Wahlschalter am Steuergerät auf Segel umlegen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_stillsetzen-8",
+            "text": "Festpropeller nach Abstellen: Ggf. durch kurzes Antippen der Startertaste waagrecht ausrichten",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_stillsetzen-9",
+            "text": "Kühlluftklappe: Schließen (Widerstandsverringerung)",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_wiederanlassen",
+        "title": "Anlassen des Motors im Flug (Wiederanlassen)",
+        "items": [
+          {
+            "id": "sf25_wiederanlassen-1",
+            "text": "Höhenreserve: Beachten (Höhenverlust beim Wiederanlassen ca. 150 bis 180 m)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-2",
+            "text": "Kühlluftklappe: Öffnen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-3",
+            "text": "Elektrische Kraftstoffzusatzpumpe (falls eingebaut): Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-4",
+            "text": "Empfindliche elektrische Geräte: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-5",
+            "text": "Zündschalter: Ein (BOTH)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-6",
+            "text": "Propellerstellung (MTV 1A): Wahlschalter auf AUTO (Vorlaufzeit ca. 1 Minute beachten), Drehzahlknopf auf ca. 20 bis 21 (ca. 4800 U/min)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-7",
+            "text": "Propellerstellung (MTV 21A): Verstellgriff ganz nach vorne auf kleine Steigung schieben, ca. 2 cm herausdrehen (ca. 5000 U/min)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-8",
+            "text": "Gashebel: Ca. 10 Prozent Leistung (bei kaltem Triebwerk Leerlauf und Choke gezogen)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-9",
+            "text": "Anlasserknopf: Betätigen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_wiederanlassen-10",
+            "text": "Nach dem Anspringen: Fluggeschwindigkeit 80 bis 90 km/h, wenig Leistung zum Warmlaufen, erst nach Erreichen der Betriebstemperaturen Vollgas",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_landung",
+        "title": "Landung",
+        "items": [
+          {
+            "id": "sf25_landung-1",
+            "text": "Propeller (hydraulisch MTV 21A): Kleinste Steigung (Verstellknopf ganz nach vorne)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-2",
+            "text": "Propeller (elektrisch MTV 1A): Drehzahlvorwahl auf Stellung 23 bzw. 22 einstellen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-3",
+            "text": "Kühlluftklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-4",
+            "text": "Elektrische Kraftstoffzusatzpumpe (falls vorhanden): Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-5",
+            "text": "Vergaservorwärmung (falls vorhanden): Ziehen (Ein)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-6",
+            "text": "Anschnallgurte: Fest angezogen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-7",
+            "text": "Kabinenhaube: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-8",
+            "text": "Anfluggeschwindigkeit: Ca. 90 km/h (bei Regen ca. 105 km/h, Mindestanfluggeschwindigkeit bei voller Flugmasse: 90 km/h gelbes Dreieck)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-9",
+            "text": "Gleitwinkelsteuerung: Mit Störklappen steuern",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-10",
+            "text": "Aufsetzgeschwindigkeit: Ca. 70 km/h",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-11",
+            "text": "Aufsetzvorgang: Störklappen beim Aufsetzen nicht voll durchziehen (Radbremse greift im Endanschlag)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_landung-12",
+            "text": "Ausrollen und Bremsen: Störklappenhebel voll ziehen bzw. Hackenbremse gleichmäßig betätigen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_nach_landung",
+        "title": "Nach der Landung und Abstellen am Boden",
+        "items": [
+          {
+            "id": "sf25_nach_landung-1",
+            "text": "Empfindliche elektronische Geräte / Avionik: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_nach_landung-2",
+            "text": "Elektrische Kraftstoffzusatzpumpe: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_nach_landung-3",
+            "text": "Zündschalter: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_nach_landung-4",
+            "text": "Hauptschalter: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_nach_landung-5",
+            "text": "Parkbremse: Gesetzt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_nach_landung-6",
+            "text": "Kraftstoffhahn: Zu",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_not_haube",
+        "title": "Notverfahren — Haubennotabwurf",
+        "items": [
+          {
+            "id": "sf25_not_haube-1",
+            "text": "Oberer Haubenverschluss: Nach vorne ziehen bzw. nach links drehen / öffnen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_not_haube-2",
+            "text": "Vorderer Notbetätigungsknopf (rot): Ziehen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_not_haube-3",
+            "text": "Kabinenhaube: Nach rechts anheben und wegschieben",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_not_haube-4",
+            "text": "Fallschirmaufziehleine: Befestigung am Querrohr über Rückenlehne kontrollieren vor Absprung",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_not_propeller",
+        "title": "Notverfahren — Elektrischer Propeller MTV 1A Störung",
+        "items": [
+          {
+            "id": "sf25_not_propeller-1",
+            "text": "Sicherungsautomat Propellerverstellung: Bei Drehzahlschwankungen oder selbständigem Verstellen sofort auslösen / ziehen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_not_elektrik",
+        "title": "Notverfahren — Elektrische Störung / Kurzschluss",
+        "items": [
+          {
+            "id": "sf25_not_elektrik-1",
+            "text": "Hauptschalter: Aus (trennt Batterie vom Bordnetz)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_not_elektrik-2",
+            "text": "Generatorsicherungsschalter (20 A): Auslösen (trennt Generator vollständig vom Bordnetz)",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_not_ueberziehen",
+        "title": "Notverfahren — Abnormale Flugzustände (Überziehen und Trudeln)",
+        "items": [
+          {
+            "id": "sf25_not_ueberziehen-1",
+            "text": "Überziehverhalten (Stall): Steuerknüppel zügig nachlassen, Normalfluglage wiederherstellen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25_not_ueberziehen-2",
+            "text": "Trudeln / Steilspirale ausleiten: Gegen Seitenruder ausschlagen, Steuerknüppel nachlassen, weich abfangen, Störklappen betätigen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      }
+    ]
+  },
+  "emergencies": [
+    {
+      "id": "sf25_em_haube",
+      "title": "SF 25 · Haubennotabwurf",
+      "branches": [
+        {
+          "id": "sf25_em_haube_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Oberer Haubenverschluss: Nach vorne ziehen bzw. nach links drehen / öffnen",
+            "Vorderer Notbetätigungsknopf (rot): Ziehen",
+            "Kabinenhaube: Nach rechts anheben und wegschieben",
+            "Fallschirmaufziehleine: Befestigung am Querrohr über Rückenlehne kontrollieren vor Absprung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf25_em_propeller",
+      "title": "SF 25 · Elektrischer Propeller MTV 1A Störung",
+      "branches": [
+        {
+          "id": "sf25_em_propeller_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Sicherungsautomat Propellerverstellung: Bei Drehzahlschwankungen oder selbständigem Verstellen sofort auslösen / ziehen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf25_em_elektrik",
+      "title": "SF 25 · Elektrische Störung / Kurzschluss",
+      "branches": [
+        {
+          "id": "sf25_em_elektrik_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Hauptschalter: Aus (trennt Batterie vom Bordnetz)",
+            "Generatorsicherungsschalter (20 A): Auslösen (trennt Generator vollständig vom Bordnetz)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf25_em_ueberziehen",
+      "title": "SF 25 · Abnormale Flugzustände (Überziehen und Trudeln)",
+      "branches": [
+        {
+          "id": "sf25_em_ueberziehen_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Überziehverhalten (Stall): Steuerknüppel zügig nachlassen, Normalfluglage wiederherstellen",
+            "Trudeln / Steilspirale ausleiten: Gegen Seitenruder ausschlagen, Steuerknüppel nachlassen, weich abfangen, Störklappen betätigen"
+          ]
+        }
+      ]
+    }
+  ]
+}
