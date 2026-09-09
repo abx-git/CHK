@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "description": "Kompakte Cockpit-Kurzliste inkl. Platzrunden",
   "aircraft": {
     "id": "HK36-R-SUPER-DIMONA-KURZ",
@@ -401,48 +401,13 @@
             "logIncludePosition": true
           }
         ],
-        "loopEnabled": true,
-        "loopMode": "ask"
+        "loopEnabled": false,
+        "loopMode": "manual"
       },
       {
         "id": "kurz_platzrunden",
         "title": "Platzrunden",
         "items": [
-          {
-            "id": "kurz_platzrunden-1",
-            "text": "Propeller: Automatik, max. Drehzahl",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-2",
-            "text": "Elektrische Kraftstoffpumpe: Ein",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-3",
-            "text": "Vergaservorwärmung: Ein",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-4",
-            "text": "Kühlklappe: Auf",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-5",
-            "text": "Gurte: Fest",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-6",
-            "text": "Bremsklappen: Nach Bedarf",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-7",
-            "text": "Anfluggeschwindigkeit: 105 km/h",
-            "autoCompleteFromSensor": false
-          },
           {
             "id": "hk36-kurz-platzrunden-landing-sensor",
             "text": "Landung",
@@ -450,70 +415,11 @@
               "landingDetection": true
             },
             "autoCompleteFromSensor": true,
-            "sensorOnlyWhenNext": false,
             "resetAltitudeOnCheckCompletion": true,
             "logText": "Landung",
             "logOnComplete": true,
             "logTag": "landing",
             "logIncludePosition": true
-          },
-          {
-            "id": "kurz_platzrunden-landzeit",
-            "text": "Landzeit: Notieren",
-            "autoCompleteFromSensor": false,
-            "logText": "Landzeit",
-            "logOnComplete": true,
-            "logTag": "landing"
-          },
-          {
-            "id": "kurz_platzrunden-8",
-            "text": "Kraftstoffhahn: Auf",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-9",
-            "text": "Elektrische Kraftstoffpumpe: Ein",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-10",
-            "text": "Propeller: Automatik, max. Drehzahl",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-11",
-            "text": "Zündung: Both",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-12",
-            "text": "Trimmung: Startstellung",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-13",
-            "text": "Bremsklappen: Eingefahren und verriegelt",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-14",
-            "text": "Kühlklappe: Auf",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-15",
-            "text": "Haube: Verriegelt",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-16",
-            "text": "Gurte: Fest",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-17",
-            "text": "Parkbremse: Gelöst",
-            "autoCompleteFromSensor": false
           },
           {
             "id": "hk36-kurz-platzrunden-start-sensor",
@@ -523,7 +429,6 @@
               "minAltitudeGainMeters": 15.0
             },
             "autoCompleteFromSensor": true,
-            "sensorOnlyWhenNext": false,
             "setReferenceAltitudeWhenNext": true,
             "logText": "Start",
             "logOnComplete": true,
@@ -533,11 +438,6 @@
           {
             "id": "kurz_platzrunden-18",
             "text": "Steiggeschwindigkeit: ≥ 95 km/h (105 km/h bestes Steigen)",
-            "autoCompleteFromSensor": false
-          },
-          {
-            "id": "kurz_platzrunden-19",
-            "text": "Elektrische Kraftstoffpumpe: Ein (bleibt an)",
             "autoCompleteFromSensor": false
           },
           {

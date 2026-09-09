@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "description": "Flughandbuch-Checkliste inkl. Notverfahren",
   "aircraft": {
     "id": "HK36-R-SUPER-DIMONA",
@@ -727,6 +727,51 @@
           {
             "id": "landeanflug_und_landung_motorflug-11",
             "text": "Elektrische Kraftstoffpumpe: Nach der Landung ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "hk36_platzrunden",
+        "title": "Platzrunden",
+        "items": [
+          {
+            "id": "hk36-platzrunden-landing-sensor",
+            "text": "Landung",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "resetAltitudeOnCheckCompletion": true,
+            "logText": "Landung",
+            "logOnComplete": true,
+            "logTag": "landing",
+            "logIncludePosition": true
+          },
+          {
+            "id": "hk36-platzrunden-start-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 90.0,
+              "minAltitudeGainMeters": 15.0
+            },
+            "autoCompleteFromSensor": true,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
+          },
+          {
+            "id": "hk36-platzrunden-1",
+            "text": "Steiggeschwindigkeit: ≥ 95 km/h (105 km/h bestes Steigen)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "hk36-platzrunden-2",
+            "text": "Triebwerksanzeigen: Im grünen Bereich",
             "autoCompleteFromSensor": false
           }
         ],

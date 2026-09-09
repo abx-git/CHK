@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "description": "Standard-Checkliste inkl. Schleppbetrieb und Notverfahren",
   "aircraft": {
     "id": "BREEZER-B400-6-916IS",
@@ -260,8 +260,56 @@
             "logOnComplete": true
           }
         ],
-        "loopEnabled": true,
+        "loopEnabled": false,
         "loopMode": "manual"
+      },
+      {
+        "id": "breezer_platzrunden",
+        "title": "Platzrunden",
+        "items": [
+          {
+            "id": "breezer-platzrunden-landing-sensor",
+            "text": "Landung",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "resetAltitudeOnCheckCompletion": true,
+            "logText": "Landung",
+            "logOnComplete": true,
+            "logTag": "landing",
+            "logIncludePosition": true
+          },
+          {
+            "id": "breezer-platzrunden-start-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 100.0,
+              "minAltitudeGainMeters": 20.0
+            },
+            "autoCompleteFromSensor": true,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
+          },
+          {
+            "id": "breezer-platzrunden-1",
+            "text": "Klappen ein: über 110 km/h",
+            "sensorTrigger": {
+              "minSpeedKmh": 110.0
+            },
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "breezer-platzrunden-2",
+            "text": "EMU / Anzeigen: Im grünen Bereich",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": true,
+        "loopMode": "ask"
       },
       {
         "id": "TOWING_ROUTINE",

@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "description": "Tägliche Flugklarkontrolle, Betriebscheckliste und Notverfahren",
   "aircraft": {
     "id": "SF25-C-FALKE",
@@ -863,6 +863,51 @@
         ],
         "loopEnabled": false,
         "loopMode": "manual"
+      },
+      {
+        "id": "sf25_platzrunden",
+        "title": "Platzrunden",
+        "items": [
+          {
+            "id": "sf25-platzrunden-landing-sensor",
+            "text": "Landung",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "resetAltitudeOnCheckCompletion": true,
+            "logText": "Landung",
+            "logOnComplete": true,
+            "logTag": "landing",
+            "logIncludePosition": true
+          },
+          {
+            "id": "sf25-platzrunden-start-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 90.0,
+              "minAltitudeGainMeters": 15.0
+            },
+            "autoCompleteFromSensor": true,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
+          },
+          {
+            "id": "sf25-platzrunden-1",
+            "text": "Steigfluggeschwindigkeit: Mindestens 90 km/h (ROTAX 912 A) bzw. 95 km/h (ROTAX 912 S)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25-platzrunden-2",
+            "text": "Triebwerksanzeigen: Im grünen Bereich",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": true,
+        "loopMode": "ask"
       },
       {
         "id": "sf25_nach_landung",
