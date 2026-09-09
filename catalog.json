@@ -4,6 +4,13 @@
   "title": "CHK Checklisten",
   "lists": [
     {
+      "id": "BREEZER-B400-6-916IS",
+      "name": "Breezer B400-6 (Rotax 916 iS)",
+      "registration": "D-MYED",
+      "description": "Standard-Checkliste inkl. Schleppbetrieb und Notverfahren",
+      "file": "lists/breezer-b400-6-916is.json"
+    },
+    {
       "id": "HK36-R-SUPER-DIMONA",
       "name": "HK 36 R Super Dimona",
       "registration": "",

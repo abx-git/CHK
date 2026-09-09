@@ -1,0 +1,477 @@
+{
+  "kind": "chk.list",
+  "schemaVersion": 3,
+  "description": "Standard-Checkliste inkl. Schleppbetrieb und Notverfahren",
+  "aircraft": {
+    "id": "BREEZER-B400-6-916IS",
+    "name": "Breezer B400-6 (Rotax 916 iS)",
+    "registration": "D-MYED"
+  },
+  "checklist": {
+    "id": "BREEZER-B400-6-916IS",
+    "aircraftId": "BREEZER-B400-6-916IS",
+    "mode": "",
+    "phases": [
+      {
+        "id": "PREFLIGHT_INT",
+        "title": "Vorflugkontrolle (Innen & Schlepp-Vorbereitung)",
+        "items": [
+          {
+            "id": "p1",
+            "text": "Flugzeugpapiere: Prüfen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "p2",
+            "text": "Kraftstoffmenge: Ausreichend",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true,
+            "logOnComplete": true
+          },
+          {
+            "id": "p8",
+            "text": "Sollbruchstelle: Max 300 daN prüfen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "p7",
+            "text": "Schleppkupplung/Ausklinkmechanismus: Funktion prüfen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "p3",
+            "text": "Fremdkörperkontrolle: Durchgeführt",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "p4",
+            "text": "Steuerung: Spielfrei, parallel",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "p5",
+            "text": "Gepäck: Verstaut und gesichert (max 10 kg)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "p6",
+            "text": "Rückspiegel: Fester Sitz / Einstellen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "ENGINE_START",
+        "title": "Anlassen",
+        "items": [
+          {
+            "id": "s3",
+            "text": "Bremse: Betätigen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "s1",
+            "text": "Rettungssystem: Entsichert",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true,
+            "logOnComplete": true
+          },
+          {
+            "id": "s2",
+            "text": "Brandhahn: AUF",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "s4",
+            "text": "EMU: Hochfahren lassen (Stufe ON)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "s5",
+            "text": "Benzinpumpen: Prüfen (A+B hörbar)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "s6",
+            "text": "Lane A+B: EIN (Warnleuchten aus nach ca. 3 s)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "s7",
+            "text": "Gashebel: ca. 40% (Kaltstart siehe Anzeige)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "s8",
+            "text": "Anlasser: Betätigen bis TW läuft",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "s9",
+            "text": "Öldruck: Prüfen (Betrieb 2.0-5.0 bar)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true,
+            "logOnComplete": true
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "TAXI_CHECK",
+        "title": "Rollen",
+        "items": [
+          {
+            "id": "t3",
+            "text": "Fluginstrumente / Avionik: Einstellen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "t1",
+            "text": "Benzinpumpe B: EIN",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "t2",
+            "text": "Bremsen / Richtungssteuerung: Prüfen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "BEFORE_TAKEOFF",
+        "title": "Vor dem Start / Lane-Check",
+        "items": [
+          {
+            "id": "bt1",
+            "text": "Drehzahl: 2500 U/min",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "bt2",
+            "text": "Lane Check: A/B einzeln prüfen (max Abfall 250 U/min)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "bt3",
+            "text": "Propeller-Cycling: Durchgeführt (5000 U/min, EMU 4 s)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "bt4",
+            "text": "Trimmung: Neutral",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "bt5",
+            "text": "Kabinenhaube: Verriegelt",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true,
+            "logOnComplete": true
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "traffic_pattern",
+        "title": "Vor Start",
+        "items": [
+          {
+            "id": "item-1773956182507",
+            "text": "Trimmung - Start",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "item-1773956195834",
+            "text": "Transponder ALT",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "item-1773956267304",
+            "text": "Klappen 1",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "tp-1",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 100.0,
+              "minAltitudeGainMeters": 20.0
+            },
+            "autoCompleteFromSensor": true,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logTag": "start",
+            "logIncludePosition": true
+          },
+          {
+            "id": "item-1773956279341",
+            "text": "Klappen ein",
+            "sensorTrigger": {
+              "minSpeedKmh": 110.0
+            },
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "APPROACH",
+        "title": "Platzrunde / Landung",
+        "items": [
+          {
+            "id": "la5",
+            "text": "Landung",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "logOnComplete": true
+          }
+        ],
+        "loopEnabled": true,
+        "loopMode": "manual"
+      },
+      {
+        "id": "TOWING_ROUTINE",
+        "title": "Schleppbetrieb (Start bis Einzug)",
+        "items": [
+          {
+            "id": "item-1773956433616",
+            "text": "Kennzeichen Segelflugzeug",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true,
+            "inputPrompt": "Kennzeichen",
+            "logNoteKind": "text"
+          },
+          {
+            "id": "tr2",
+            "text": "Landeklappen: Stufe 1",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "tr1",
+            "text": "Seil straffen: Vorsichtig anrollen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "tc1",
+            "text": "Abheben/Steigen: 110 km/h IAS",
+            "sensorTrigger": {
+              "minSpeedKmh": 110.0
+            },
+            "autoCompleteFromSensor": true
+          },
+          {
+            "id": "tc2",
+            "text": "Klappen einfahren: über 110 km/h",
+            "sensorTrigger": {
+              "minSpeedKmh": 110.0
+            },
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "tc3",
+            "text": "Beste Steigrate: 120 - 140 km/h IAS",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "tc4",
+            "text": "Temperaturen prüfen: ÖL max 130°C / Kühlm. max 120°C",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "tr4",
+            "text": "Seil eingefahren: Grüne LED an",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true,
+            "logOnComplete": true
+          },
+          {
+            "id": "item-1773956528049",
+            "text": "Landung",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "logOnComplete": true
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "AFTER_LANDING_SHUTDOWN",
+        "title": "Abstellen & Nachflug",
+        "items": [
+          {
+            "id": "as2",
+            "text": "Gashebel: Leerlauf",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as3",
+            "text": "Cool-down (2 min)",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as11",
+            "text": "Rettungssystem: Sichern",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "item-1773951030309",
+            "text": "Motorstand notieren",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true,
+            "logIncludePosition": true,
+            "inputPrompt": "Motorstunden",
+            "logNoteKind": "text"
+          },
+          {
+            "id": "as8",
+            "text": "Benzinpumpe B: AUS",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as5",
+            "text": "Landeklappen: Einfahren",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as6",
+            "text": "Trimmung: Neutral",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as7",
+            "text": "Elektrische Verbraucher / Avionik: AUS",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as9",
+            "text": "Zünd- / Schlüsselschalter: AUS",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as10",
+            "text": "Hauptschalter: AUS",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as4",
+            "text": "Dokumentation: Bordbuch-Eintrag",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          },
+          {
+            "id": "as12",
+            "text": "Propellerstillstand: Erst dann Flugzeug verlassen",
+            "autoCompleteFromSensor": false,
+            "activateFromSensor": true
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      }
+    ]
+  },
+  "emergencies": [
+    {
+      "id": "ENGINE_FAIL_FLIGHT",
+      "title": "Triebwerksstörung im Flug",
+      "branches": [
+        {
+          "id": "EF_PROC",
+          "title": "Verfahren",
+          "steps": [
+            "Geschwindigkeit: 100 km/h (bester Gleitflug)",
+            "Landeplatz: Suchen (gegen Wind/Hang)",
+            "Gurte: Strammziehen",
+            "Notmeldung: Absetzen",
+            "Brandhahn: ZU (OFF)",
+            "Lanes: AUS",
+            "Hauptschalter: AUS",
+            "Rettungssystem: Bereithalten (Aktivierung ab 100 m möglich)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FIRE_CABIN",
+      "title": "Brand oder Rauch in der Kabine",
+      "branches": [
+        {
+          "id": "FC_PROC",
+          "title": "Sofortmaßnahmen",
+          "steps": [
+            "Elektrische Systeme: Unverzüglich AUS",
+            "Haube: Entriegeln",
+            "Notlandung: Schnellstmöglich durchführen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TOW_EMERGENCY",
+      "title": "Notfall im Schleppbetrieb",
+      "branches": [
+        {
+          "id": "TE_PROC",
+          "title": "Unnormale Lage / Seilbruch",
+          "steps": [
+            "Segelflugzeug >30° außerhalb Achse: Unverzüglich Ausklinken/Kappen",
+            "Übersteigen des Schleppers: Unverzüglich Ausklinken/Kappen",
+            "Seil kappen: Hebel an linker Bordwand mit Ruck ziehen",
+            "Nachdrücken: Fahrt aufholen"
+          ]
+        }
+      ]
+    }
+  ]
+}
