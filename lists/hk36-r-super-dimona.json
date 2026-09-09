@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "description": "Flughandbuch-Checkliste inkl. Notverfahren",
   "aircraft": {
     "id": "HK36-R-SUPER-DIMONA",

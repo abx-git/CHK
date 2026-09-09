@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "description": "Tägliche Flugklarkontrolle, Betriebscheckliste und Notverfahren",
   "aircraft": {
     "id": "SF25-C-FALKE",
@@ -531,6 +531,21 @@
         "title": "Start und Steigflug (Eigenstart)",
         "items": [
           {
+            "id": "sf25-eigenstart-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 90.0,
+              "minAltitudeGainMeters": 15.0
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
+          },
+          {
             "id": "sf25_start_steigflug-1",
             "text": "Startcheck (Instrumentenbrett): Vollständig durchgeführt",
             "autoCompleteFromSensor": false
@@ -642,6 +657,21 @@
             "id": "sf25_windenstart-6",
             "text": "Schleppgeschwindigkeit (Vw): Maximal 100 km/h (bis 580/610 kg) bzw. 110 km/h (650 kg)",
             "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25-windenstart-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 90.0,
+              "minAltitudeGainMeters": 15.0
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
           }
         ],
         "loopEnabled": false,
@@ -733,6 +763,18 @@
             "id": "sf25_stillsetzen-9",
             "text": "Kühlluftklappe: Schließen (Widerstandsverringerung)",
             "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25-motorstunden-flug",
+            "text": "Motorstand: Notieren",
+            "autoCompleteFromSensor": false,
+            "logText": "Motorstunden",
+            "logOnComplete": true,
+            "logTag": "engine",
+            "logIncludePosition": true,
+            "inputPrompt": "Motorstunden",
+            "logNoteKind": "text",
+            "logTextInputNumericByDefault": true
           }
         ],
         "loopEnabled": false,
@@ -851,6 +893,20 @@
             "autoCompleteFromSensor": false
           },
           {
+            "id": "sf25-landing-sensor",
+            "text": "Landung",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "resetAltitudeOnCheckCompletion": true,
+            "logText": "Landung",
+            "logOnComplete": true,
+            "logTag": "landing",
+            "logIncludePosition": true
+          },
+          {
             "id": "sf25_landung-11",
             "text": "Aufsetzvorgang: Störklappen beim Aufsetzen nicht voll durchziehen (Radbremse greift im Endanschlag)",
             "autoCompleteFromSensor": false
@@ -942,6 +998,18 @@
             "id": "sf25_nach_landung-6",
             "text": "Kraftstoffhahn: Zu",
             "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sf25-motorstunden-boden",
+            "text": "Motorstand: Notieren",
+            "autoCompleteFromSensor": false,
+            "logText": "Motorstunden",
+            "logOnComplete": true,
+            "logTag": "engine",
+            "logIncludePosition": true,
+            "inputPrompt": "Motorstunden",
+            "logNoteKind": "text",
+            "logTextInputNumericByDefault": true
           }
         ],
         "loopEnabled": false,
