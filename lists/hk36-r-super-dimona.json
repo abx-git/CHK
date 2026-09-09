@@ -1,0 +1,1266 @@
+{
+  "kind": "chk.list",
+  "schemaVersion": 3,
+  "description": "Flughandbuch-Checkliste inkl. Notverfahren",
+  "aircraft": {
+    "id": "HK36-R-SUPER-DIMONA",
+    "name": "HK 36 R Super Dimona",
+    "registration": ""
+  },
+  "checklist": {
+    "id": "HK36-R-SUPER-DIMONA",
+    "aircraftId": "HK36-R-SUPER-DIMONA",
+    "mode": "",
+    "phases": [
+      {
+        "id": "tagliche_kontrolle_und_aussenkontrolle",
+        "title": "Tägliche Kontrolle und Außenkontrolle",
+        "items": [
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-1",
+            "text": "Hauptschalter: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-2",
+            "text": "Zündung: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-3",
+            "text": "Kraftstoffablass: Ca. 1/8 Liter Kraftstoff in durchsichtiges Gefäß ablassen — Frei von Wasser und Schmutz",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-4",
+            "text": "Wartungszeit: Restflugzeit bis zum nächsten Wartungsereignis prüfen — Ausreichend für geplantes Flugvorhaben",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-5",
+            "text": "Linke Rumpfhälfte: Sichtprüfung — Frei von Beschädigungen und Rissen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-6",
+            "text": "Seitenleitwerk: Sichtprüfung, Flosse, Ruder und Ruderantrieb prüfen — Spielfrei, gängig, unbeschädigt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-7",
+            "text": "Staurohr: Montage kontrollieren und Schutzhülle abziehen — Öffnungen frei von Verschmutzung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-8",
+            "text": "Höhenleitwerk: Befestigung, Festsitz, Ruder und Antrieb kontrollieren — Kraftschlüssig, spielfrei, unbeschädigt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-9",
+            "text": "Spornfahrwerk: Zustand und Reifendruck prüfen — Unbeschädigt, Reifendruck 3,1 bar",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-10",
+            "text": "Rechte Rumpfhälfte: Sichtprüfung — Frei von Beschädigungen und Rissen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-11",
+            "text": "Rechter Flügel und Querruder: Befestigung, Rudergängigkeit und Randbogen prüfen — Spielfrei, unbeschädigt, funktionstüchtig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-12",
+            "text": "Rechte Bremsklappe: Einfahren und Verriegelung prüfen — Bündig mit Flügeloberfläche",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-13",
+            "text": "Rechtes Hauptfahrwerk: Fahrwerksbügel, Verkleidung und Reifendruck prüfen — Fest, unbeschädigt, Reifendruck 2,1 bar",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-14",
+            "text": "Propeller und Spinner: Blätter und Spinner sichtprüfen — Fest, frei von Beschädigungen und Rissen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-15",
+            "text": "Motorraum und Kühler: Sichtkontrolle auf lose Teile und freien Durchgang durchführen — Freier Durchgang, keine Defekte",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-16",
+            "text": "Kühlmittelausgleichsbehälter: Füllstand kontrollieren — Mehr als 1/3 voll (EVANS NPG+ ohne Wasser)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-17",
+            "text": "Ölstand: Öltankdeckel abnehmen, Propeller in Drehrichtung drehen bis Gurgeln hörbar, Ölstand mit Peilstab messen, Deckel schließen — Zwischen 2,0 l und 3,0 l (API SF oder SG, kein Flugmotoröl)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-18",
+            "text": "Linkes Hauptfahrwerk: Fahrwerksbügel, Verkleidung und Reifendruck prüfen — Fest, unbeschädigt, Reifendruck 2,1 bar",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-19",
+            "text": "Linker Flügel und Querruder: Befestigung, Rudergängigkeit und Randbogen prüfen — Spielfrei, unbeschädigt, funktionstüchtig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-20",
+            "text": "Linke Bremsklappe: Einfahren und Verriegelung prüfen — Bündig mit Flügeloberfläche",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-21",
+            "text": "Beladung und Schwerpunkt: Gemäß Beladeplan und Beladediagramm berechnen — Innerhalb zulässiger Grenzen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-22",
+            "text": "Hauptschalter (für Instrumentenprüfung): EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-23",
+            "text": "Betriebsartenwahlschalter: MOTORFLUG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-24",
+            "text": "Sicherungsautomaten: Alle eingedrückt / EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-25",
+            "text": "Kraftstoffvorrat: An Tankanzeige ablesen — Für Flug ausreichend",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-26",
+            "text": "Propellerverstellung: Rastschalter auf Segelstellung und zurück auf Startstellung testen, danach auf Automatik stellen — Grüne Kontrollleuchte leuchtet, AUTOMATIK",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-27",
+            "text": "Hauptschalter (nach Instrumentenprüfung): AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-28",
+            "text": "Kabinenraum: Auf Fremdkörper und Sauberkeit der Verglasung kontrollieren — Sauber, keine losen Teile",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-29",
+            "text": "Kühlklappe: Funktion der manuellen Betätigung überprüfen — Freigängig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "tagliche_kontrolle_und_aussenkontrolle-30",
+            "text": "Hauptbolzen: Sicherung prüfen — Mit Fokkernadel gesichert",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "vorflug_und_cockpit_vorbereitung",
+        "title": "Vorflug- und Cockpit-Vorbereitung",
+        "items": [
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-1",
+            "text": "Seitenruderpedale: Im Stand anpassen und verrasten — Eingerastet",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-2",
+            "text": "Anschnallgurte: Anlegen und straffziehen — Geschlossen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-3",
+            "text": "Kabinenhaube: Schließen und Hebel um 180 Grad verriegeln — Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-4",
+            "text": "Kraftstoffhahn (Brandhahn): Nach vorne legen — OFFEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-5",
+            "text": "Steueranlage: Vollausschläge durchführen — Freigängig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-6",
+            "text": "Bremsklappen: Voll ausfahren und testen — Funktion geprüft",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-7",
+            "text": "Parkbremse: Zugknopf ziehen und Klappenhebel ziehen — GESETZT",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-8",
+            "text": "Bremsklappen: Ganz vorschieben — Eingefahren und verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-9",
+            "text": "Elektrische Verbraucher: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-10",
+            "text": "Hauptschalter: Einschalten — EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-11",
+            "text": "Betriebsartenwahlschalter: MOTORFLUG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-12",
+            "text": "Propellerverstellung: Testen und auf Automatik stellen — AUTOMATIK (Grüne Lampe leuchtet)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-13",
+            "text": "Kraftstoffanzeige: Menge kontrollieren — Geprüft",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-14",
+            "text": "Kühlluftklappe: Zugknopf nach vorne schieben — OFFEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "vorflug_und_cockpit_vorbereitung-15",
+            "text": "Elektrische Kraftstoffpumpe: Schalten und rote Kontrollleuchte beobachten — EIN (Rote Leuchte erlischt nach Druckaufbau)",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "anlassen_und_warmlauf",
+        "title": "Anlassen und Warmlauf",
+        "items": [
+          {
+            "id": "anlassen_und_warmlauf-1",
+            "text": "Leistungshebel: LEERLAUF",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-2",
+            "text": "Choke: Bei Kaltstart ziehen — EIN (oder AUS bei warmem Motor)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-3",
+            "text": "Propellergefahrenzone: Visuell überprüfen — Frei von Personen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-4",
+            "text": "Zündschalter: Eindrücken und ganz nach rechts drehen — START, dann BOTH",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-5",
+            "text": "Leistungshebel: Drehzahl nach Start einregulieren — Ca. 1500 U/min",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-6",
+            "text": "Öldruck: Innerhalb von 10 Sekunden prüfen — Im grünen Bereich (mindestens 1,5 bar)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-7",
+            "text": "Choke: Nach Bedarf vorschieben — Nach Warmlauf AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-8",
+            "text": "Elektrische Verbraucher / Avionik: Nach Bedarf einschalten — EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-9",
+            "text": "Höhenmesser: Auf Platzdruck / QNH einstellen — Eingestellt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "anlassen_und_warmlauf-10",
+            "text": "Motorwarmlauf: Mit 1100 bis 1500 U/min warmlaufen lassen — Öltemperatur mindestens 50 Grad C",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "triebwerks_und_systemchecks_am_boden",
+        "title": "Triebwerks- und Systemchecks am Boden",
+        "items": [
+          {
+            "id": "triebwerks_und_systemchecks_am_boden-1",
+            "text": "Choke: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerks_und_systemchecks_am_boden-2",
+            "text": "Propellerfunktion: Bei 1500 U/min auf Segel-/Reisestellung schalten, Rückstellung Startstellung prüfen, dann auf Automatik Minimaldrehzahl regeln und wieder auf Startdrehzahl drehen — Drehzahlabfall ca. 150 U/min, Rückstellung OK, grüne Lampe leuchtet",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerks_und_systemchecks_am_boden-3",
+            "text": "Zündkreise (Magnetencheck): Bei 1500 U/min Schalter auf L und R schalten — Drehzahlabfall 50 bis 150 U/min, Schalter auf BOTH",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerks_und_systemchecks_am_boden-4",
+            "text": "Vergaservorwärmung: Bei 1500 U/min ziehen und wieder vorschieben — Drehzahlabfall ca. 20 U/min, danach AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerks_und_systemchecks_am_boden-5",
+            "text": "Vollgasdrehzahl: Vollgas geben und Drehzahl ablesen — 2420 +/- 100 U/min",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "start_check_kurzcheck_vor_startlauf",
+        "title": "Start-Check (Kurzcheck vor Startlauf)",
+        "items": [
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-1",
+            "text": "Beladeplan: Beachtet",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-2",
+            "text": "Hauptbolzen: Mit Fokkernadel gesichert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-3",
+            "text": "Brandhahn: OFFEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-4",
+            "text": "Kraftstoffvorrat: Geprüft",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-5",
+            "text": "Kabinenhaube: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-6",
+            "text": "Sitzgurte: Richtig angeschnallt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-7",
+            "text": "Propellerverstellung: AUTOMATIK / Höchste Drehzahl",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-8",
+            "text": "Magneten / Zündung: BOTH",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-9",
+            "text": "Steueranlage: Freigängig",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-10",
+            "text": "Trimmung: Startstellung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-11",
+            "text": "Kühlklappe: OFFEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-12",
+            "text": "Elektrische Kraftstoffpumpe: EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-13",
+            "text": "Bremsklappen: Voll vorschieben — Eingefahren und verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_check_kurzcheck_vor_startlauf-14",
+            "text": "Parkbremse: Knopf hineindrücken — GELÖST",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "start_und_steigflug",
+        "title": "Start und Steigflug",
+        "items": [
+          {
+            "id": "hk36-start-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 90.0,
+              "minAltitudeGainMeters": 15.0
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
+          },
+          {
+            "id": "start_und_steigflug-1",
+            "text": "Leistungshebel: Zügig ganz nach vorne schieben — VOLLGAS (Mindestens 2420 U/min)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_und_steigflug-2",
+            "text": "Steuerknüppel: Beim Anrollen leicht nach vorne drücken — Leicht gedrückt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_und_steigflug-3",
+            "text": "Spornrad: In der Luft (Abheben bei ca. 90 km/h)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_und_steigflug-4",
+            "text": "Fluggeschwindigkeit: Mindestens 95 km/h (95 km/h bester Steigwinkel, 105 km/h bestes Steigen)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_und_steigflug-5",
+            "text": "Motorüberwachung: Öldruck, Öltemperatur und Zylinderkopftemperatur beobachten — Im grünen Bereich",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_und_steigflug-6",
+            "text": "Elektrische Kraftstoffpumpe: Ab ca. 100 m über Grund ausschalten — AUS (Rote Warnlampe muss ausbleiben)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "start_und_steigflug-7",
+            "text": "Propellerdrehzahl: Nach spätestens 3 Minuten am Drehzahlwahlknopf reduzieren — Maximal 2420 U/min",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "reiseflug",
+        "title": "Reiseflug",
+        "items": [
+          {
+            "id": "reiseflug-1",
+            "text": "Propellerdrehzahl und Ansaugdruck: Nach Leistungstabelle einstellen (z.B. 2200 U/min und 22 inHg) — Eingestellt (Drehzahl nicht unter 1900 U/min)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "reiseflug-2",
+            "text": "Kühlklappe: Nach Bedarf verstellen — Öltemperatur ca. 80 Grad C, Zylinderkopf ca. 100 Grad C",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "reiseflug-3",
+            "text": "Vergaservorwärmung: Bei Vereisungsgefahr oder unter 10 Grad C ziehen — Nach Bedarf EIN",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "motorabschaltung_im_flug",
+        "title": "Motorabschaltung im Flug",
+        "items": [
+          {
+            "id": "motorabschaltung_im_flug-1",
+            "text": "Leistungshebel: Ganz zurückziehen — LEERLAUF",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "motorabschaltung_im_flug-2",
+            "text": "Kühlklappe: Schließen — GESCHLOSSEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "motorabschaltung_im_flug-3",
+            "text": "Elektrische Verbraucher: Nicht benötigte Geräte ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "motorabschaltung_im_flug-4",
+            "text": "Zündung: Schlüssel auf Null drehen — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "motorabschaltung_im_flug-5",
+            "text": "Propellerverstellung: Rastschalter nach hinten legen — SEGELSTELLUNG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "motorabschaltung_im_flug-6",
+            "text": "Betriebsartenwahlschalter: Umschalten — SEGELFLUG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "motorabschaltung_im_flug-7",
+            "text": "Fluggeschwindigkeit: Für bestes Gleiten halten — 105 km/h",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "triebwerksneustart_im_flug",
+        "title": "Triebwerksneustart im Flug",
+        "items": [
+          {
+            "id": "triebwerksneustart_im_flug-1",
+            "text": "Elektrische Verbraucher: Ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-2",
+            "text": "Hauptschalter: Einschalten — EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-3",
+            "text": "Betriebsartenwahlschalter: MOTORFLUG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-4",
+            "text": "Propellerverstellung: Rastschalter nach vorne legen — AUTOMATIK",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-5",
+            "text": "Kühlluftklappe: Öffnen — OFFEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-6",
+            "text": "Choke: Bei kaltem Triebwerk ziehen — EIN (bei kaltem Motor)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-7",
+            "text": "Elektrische Benzinpumpe: EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-8",
+            "text": "Leistungshebel: LEERLAUF",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-9",
+            "text": "Zündschalter: Drücken und Anlasser drehen (möglich ab 50 % Verstellweg) — START, dann BOTH",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-10",
+            "text": "Öldruck: Im grünen Bereich",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-11",
+            "text": "Choke: Hineinschieben — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-12",
+            "text": "Motorleistung: Erst nach Aufleuchten der grünen Kontrollleuchte erhöhen — Startstellung erreicht",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-13",
+            "text": "Elektrische Verbraucher: Nach Bedarf einschalten — EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-14",
+            "text": "Öltemperatur: Mindestens 50 Grad C vor Belastung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "triebwerksneustart_im_flug-15",
+            "text": "Propellerdrehzahl: Am Vorwahlknopf gewünschte Drehzahl einstellen — AUTOMATIK",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sinkflug",
+        "title": "Sinkflug",
+        "items": [
+          {
+            "id": "sinkflug-1",
+            "text": "Leistungshebel: Nach Bedarf reduzieren — Reduziert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sinkflug-2",
+            "text": "Vergaservorwärmung: Nach Bedarf einschalten — Nach Bedarf EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sinkflug-3",
+            "text": "Trimmung: Nach Bedarf nachführen — Getrimmt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sinkflug-4",
+            "text": "Bremsklappen: Nach Bedarf einsetzen — Nach Bedarf dosiert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "sinkflug-5",
+            "text": "Drehzahlmesser: Bei Gaswechseln beobachten — Keine Überdrehzahl",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "landeanflug_und_landung_motorflug",
+        "title": "Landeanflug und Landung (Motorflug)",
+        "items": [
+          {
+            "id": "landeanflug_und_landung_motorflug-1",
+            "text": "Propellerverstellung: Vorwahlknopf ganz nach rechts drehen — Höchste Drehzahl",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-2",
+            "text": "Elektrische Benzinpumpe: EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-3",
+            "text": "Leistung: Für Sinkflug reduzieren — Reduziert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-4",
+            "text": "Vergaservorwärmung: EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-5",
+            "text": "Kühlklappe: Öffnen — OFFEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-6",
+            "text": "Trimmung: Auf Anfluggeschwindigkeit trimmen — Getrimmt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-7",
+            "text": "Bremsklappen: Zur Gleitwegsteuerung nutzen — Nach Bedarf dosiert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-8",
+            "text": "Anfluggeschwindigkeit: Im Endanflug halten — 105 km/h (bei Turbulenz höher)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-9",
+            "text": "Aufsetzen: Dreipunktlage (Klappenhebel nicht voll gezogen)",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "logText": "Landung",
+            "logOnComplete": true,
+            "logTag": "landing",
+            "logIncludePosition": true
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-10",
+            "text": "Radbremse: Nach dem Aufsetzen durch Ziehen des Klappenhebels bremsen — Nach Bedarf betätigt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_motorflug-11",
+            "text": "Elektrische Kraftstoffpumpe: Nach der Landung ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": true,
+        "loopMode": "ask"
+      },
+      {
+        "id": "landeanflug_und_landung_segelflug",
+        "title": "Landeanflug und Landung (Segelflug)",
+        "items": [
+          {
+            "id": "landeanflug_und_landung_segelflug-1",
+            "text": "Anflughöhe: Höhe so wählen, dass Landefeld sicher erreicht wird — Ausreichend Reserve",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_segelflug-2",
+            "text": "Trimmung: Auf Anfluggeschwindigkeit trimmen — Getrimmt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_segelflug-3",
+            "text": "Bremsklappen: Zur Gleitwegsteuerung dosieren — Nach Bedarf dosiert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_segelflug-4",
+            "text": "Anfluggeschwindigkeit: Im Endanflug halten — 105 km/h",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "landeanflug_und_landung_segelflug-5",
+            "text": "Aufsetzen: Dreipunktlage",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "logText": "Landung",
+            "logOnComplete": true,
+            "logTag": "landing",
+            "logIncludePosition": true
+          },
+          {
+            "id": "landeanflug_und_landung_segelflug-6",
+            "text": "Radbremse: Nach dem Aufsetzen über Klappenhebel dosieren — Nach Bedarf betätigt",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "abstellen_und_parken",
+        "title": "Abstellen und Parken",
+        "items": [
+          {
+            "id": "abstellen_und_parken-1",
+            "text": "Propellerverstellung: Rastschalter nach vorne legen — STARTSTELLUNG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-2",
+            "text": "Leistungshebel: Zurückziehen — LEERLAUF",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-3",
+            "text": "Parkbremse: Knopf herausziehen und Klappenhebel ziehen — ANGEZOGEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-4",
+            "text": "Elektrische Benzinpumpe: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-5",
+            "text": "Elektrische Verbraucher: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-6",
+            "text": "Zündung: Ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-7",
+            "text": "Hauptschalter: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-8",
+            "text": "Betriebsartenwahlschalter: Umschalten — SEGELFLUG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-9",
+            "text": "Bremsklappen: Verriegeln (oder beim Parken im Freien mit Bauchgurt ausgefahren fixieren) — VERRIEGELT",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "abstellen_und_parken-10",
+            "text": "Flugzeugsicherung: Gegen den Wind ausrichten, bei längerem Parken verzurren oder hangarieren — Geparkt / Verzurrt",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "notverfahren_motorstorung_beim_startlauf_unter_8",
+        "title": "Notverfahren: Motorstörung beim Startlauf (unter 80 m)",
+        "items": [
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-1",
+            "text": "Kraftstoffhahn: OFFEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-2",
+            "text": "Elektrische Kraftstoffpumpe: EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-3",
+            "text": "Choke: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-4",
+            "text": "Propeller-Wahlschalter: MAXIMALE DREHZAHL",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-5",
+            "text": "Zündschalter: BOTH",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-6",
+            "text": "Flugweg (unter 80 m über Grund ohne Leistung): Geradeauslandung einleiten — Geradeaus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-7",
+            "text": "Kraftstoffhahn (vor dem Aufsetzen): Schließen — GESCHLOSSEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-8",
+            "text": "Zündung (vor dem Aufsetzen): Ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_beim_startlauf_unter_8-9",
+            "text": "Hauptschalter (vor dem Aufsetzen): Ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "notverfahren_motorstorung_im_reiseflug",
+        "title": "Notverfahren: Motorstörung im Reiseflug",
+        "items": [
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-1",
+            "text": "Kraftstoffhahn: OFFEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-2",
+            "text": "Elektrische Kraftstoffpumpe: EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-3",
+            "text": "Choke: AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-4",
+            "text": "Vergaservorwärmung: Bei Temperaturen unter 10 Grad C einschalten — EIN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-5",
+            "text": "Zündung: BOTH",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-6",
+            "text": "Tankanzeige: Kraftstoffvorrat prüfen — Geprüft",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-7",
+            "text": "Leistungshebel (falls nicht behebbar): Zurückziehen — LEERLAUF",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-8",
+            "text": "Kühlklappe (falls nicht behebbar): Schließen — GESCHLOSSEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-9",
+            "text": "Propellerverstellung (falls nicht behebbar): Rastschalter nach hinten legen — SEGELSTELLUNG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-10",
+            "text": "Zündung (falls nicht behebbar): Ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-11",
+            "text": "Kraftstoffhahn (falls nicht behebbar): Schließen — GESCHLOSSEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-12",
+            "text": "Hauptschalter (falls nicht behebbar): Ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-13",
+            "text": "Fluggeschwindigkeit: Bestes Gleiten einnehmen — 105 km/h",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_motorstorung_im_reiseflug-14",
+            "text": "Landefeld: Ausschau halten und Anflug planen — Ausgewählt",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "notverfahren_brand",
+        "title": "Notverfahren: Brand",
+        "items": [
+          {
+            "id": "notverfahren_brand-1",
+            "text": "Kraftstoffhahn (bei Vergaserbrand): Schließen — GESCHLOSSEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_brand-2",
+            "text": "Leistungshebel (bei Vergaserbrand): Ganz vorschieben — VOLLE LEISTUNG",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_brand-3",
+            "text": "Cockpitlüftung und Heizung (bei Vergaserbrand): Schließen — AUS",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_brand-4",
+            "text": "Hauptschalter (bei Kabelbrand): Sofort ausschalten — AUS",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "notverfahren_propellerverstellung_storung_ausfal",
+        "title": "Notverfahren: Propellerverstellung Störung / Ausfall",
+        "items": [
+          {
+            "id": "notverfahren_propellerverstellung_storung_ausfal-1",
+            "text": "Propellerverstellung (bei Störung): Sofort schalten — START",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_propellerverstellung_storung_ausfal-2",
+            "text": "Propellersicherungsautomat (bei weiterem Drehzahlabfall): Manuell herausziehen — AUSGELÖST",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_propellerverstellung_storung_ausfal-3",
+            "text": "Motorleistung (bei rauhem Lauf): Mit Leistungshebel Ansaugdruck verringern — Reduziert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_propellerverstellung_storung_ausfal-4",
+            "text": "Propellersicherungsautomat (bei automatischem Auslösen): Nach 30 bis 60 Sekunden einmalig wieder reindrücken — Wieder aktiviert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_propellerverstellung_storung_ausfal-5",
+            "text": "Propeller in Segelstellung verharrt: Kraftstoffhahn schließen, Hauptschalter aus, Gleitflug 105 km/h einnehmen — Gleitflug zur Außenlandung",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "notverfahren_ungewollte_flugzustande",
+        "title": "Notverfahren: Ungewollte Flugzustände",
+        "items": [
+          {
+            "id": "notverfahren_ungewollte_flugzustande-1",
+            "text": "Sackflug / Überzogener Zustand: Höhensteuer sofort nachlassen und sanft abfangen — Normaler Gleitflug",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_ungewollte_flugzustande-2",
+            "text": "Trudeln: Volles Gegenseitenruder geben, Steuerknüppel nachlassen bis Drehung stoppt, Seitenruder neutralisieren, weich abfangen — Normaler Flugzustand",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_ungewollte_flugzustande-3",
+            "text": "Spiralsturz: Seiten- und Querruder entgegen der Drehrichtung geben, Flugzeug weich abfangen — Normaler Flugzustand",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "notverfahren_notausstieg",
+        "title": "Notverfahren: Notausstieg",
+        "items": [
+          {
+            "id": "notverfahren_notausstieg-1",
+            "text": "Kabinenhaubenverriegelung: Beide rote Hebel mit Kraft um 180 Grad nach hinten schwenken — Gelöst",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notausstieg-2",
+            "text": "Kabinenhaube: Mit beiden Händen über den Kopf nach oben hinten wegstoßen — Abgeworfen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notausstieg-3",
+            "text": "Anschnallgurte: Durch Drehen des Gurtschlosses lösen — Gelöst",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notausstieg-4",
+            "text": "Flugzeug: Verlassen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notausstieg-5",
+            "text": "Fallschirm: Bei manuellem Fallschirm nach ca. 2 Sekunden Reißleine ziehen — Gezogen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "notverfahren_notwasserung",
+        "title": "Notverfahren: Notwasserung",
+        "items": [
+          {
+            "id": "notverfahren_notwasserung-1",
+            "text": "Fallschirmgurte: Öffnen — GEÖFFNET",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notwasserung-2",
+            "text": "Anschnallgurte: Festziehen — FESTGEZOGEN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notwasserung-3",
+            "text": "Bremsklappen: Vor Aufsetzen voll einfahren — EINGEFAHREN",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notwasserung-4",
+            "text": "Anflug: Mit Normalgeschwindigkeit (105 km/h) anfliegen, bei Minimalgeschwindigkeit aufsetzen, Gesicht mit freiem Arm schützen — Aufgesetzt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notwasserung-5",
+            "text": "Anschnallgurte: Nach dem Stillstand lösen — GELÖST",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notwasserung-6",
+            "text": "Kabinenhaube: Notabwurf betätigen und Haube wegdrücken — Abgeworfen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "notverfahren_notwasserung-7",
+            "text": "Kabine: Schnellstmöglich verlassen — Verlassen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      }
+    ]
+  },
+  "emergencies": [
+    {
+      "id": "hk36_em_1",
+      "title": "HK 36 · Motorstörung beim Startlauf (unter 80 m)",
+      "branches": [
+        {
+          "id": "hk36_em_1_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Kraftstoffhahn: OFFEN",
+            "Elektrische Kraftstoffpumpe: EIN",
+            "Choke: AUS",
+            "Propeller-Wahlschalter: MAXIMALE DREHZAHL",
+            "Zündschalter: BOTH",
+            "Flugweg (unter 80 m über Grund ohne Leistung): Geradeauslandung einleiten — Geradeaus",
+            "Kraftstoffhahn (vor dem Aufsetzen): Schließen — GESCHLOSSEN",
+            "Zündung (vor dem Aufsetzen): Ausschalten — AUS",
+            "Hauptschalter (vor dem Aufsetzen): Ausschalten — AUS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hk36_em_2",
+      "title": "HK 36 · Motorstörung im Reiseflug",
+      "branches": [
+        {
+          "id": "hk36_em_2_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Kraftstoffhahn: OFFEN",
+            "Elektrische Kraftstoffpumpe: EIN",
+            "Choke: AUS",
+            "Vergaservorwärmung: Bei Temperaturen unter 10 Grad C einschalten — EIN",
+            "Zündung: BOTH",
+            "Tankanzeige: Kraftstoffvorrat prüfen — Geprüft",
+            "Leistungshebel (falls nicht behebbar): Zurückziehen — LEERLAUF",
+            "Kühlklappe (falls nicht behebbar): Schließen — GESCHLOSSEN",
+            "Propellerverstellung (falls nicht behebbar): Rastschalter nach hinten legen — SEGELSTELLUNG",
+            "Zündung (falls nicht behebbar): Ausschalten — AUS",
+            "Kraftstoffhahn (falls nicht behebbar): Schließen — GESCHLOSSEN",
+            "Hauptschalter (falls nicht behebbar): Ausschalten — AUS",
+            "Fluggeschwindigkeit: Bestes Gleiten einnehmen — 105 km/h",
+            "Landefeld: Ausschau halten und Anflug planen — Ausgewählt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hk36_em_3",
+      "title": "HK 36 · Brand",
+      "branches": [
+        {
+          "id": "hk36_em_3_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Kraftstoffhahn (bei Vergaserbrand): Schließen — GESCHLOSSEN",
+            "Leistungshebel (bei Vergaserbrand): Ganz vorschieben — VOLLE LEISTUNG",
+            "Cockpitlüftung und Heizung (bei Vergaserbrand): Schließen — AUS",
+            "Hauptschalter (bei Kabelbrand): Sofort ausschalten — AUS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hk36_em_4",
+      "title": "HK 36 · Propellerverstellung Störung / Ausfall",
+      "branches": [
+        {
+          "id": "hk36_em_4_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Propellerverstellung (bei Störung): Sofort schalten — START",
+            "Propellersicherungsautomat (bei weiterem Drehzahlabfall): Manuell herausziehen — AUSGELÖST",
+            "Motorleistung (bei rauhem Lauf): Mit Leistungshebel Ansaugdruck verringern — Reduziert",
+            "Propellersicherungsautomat (bei automatischem Auslösen): Nach 30 bis 60 Sekunden einmalig wieder reindrücken — Wieder aktiviert",
+            "Propeller in Segelstellung verharrt: Kraftstoffhahn schließen, Hauptschalter aus, Gleitflug 105 km/h einnehmen — Gleitflug zur Außenlandung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hk36_em_5",
+      "title": "HK 36 · Ungewollte Flugzustände",
+      "branches": [
+        {
+          "id": "hk36_em_5_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Sackflug / Überzogener Zustand: Höhensteuer sofort nachlassen und sanft abfangen — Normaler Gleitflug",
+            "Trudeln: Volles Gegenseitenruder geben, Steuerknüppel nachlassen bis Drehung stoppt, Seitenruder neutralisieren, weich abfangen — Normaler Flugzustand",
+            "Spiralsturz: Seiten- und Querruder entgegen der Drehrichtung geben, Flugzeug weich abfangen — Normaler Flugzustand"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hk36_em_6",
+      "title": "HK 36 · Notausstieg",
+      "branches": [
+        {
+          "id": "hk36_em_6_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Kabinenhaubenverriegelung: Beide rote Hebel mit Kraft um 180 Grad nach hinten schwenken — Gelöst",
+            "Kabinenhaube: Mit beiden Händen über den Kopf nach oben hinten wegstoßen — Abgeworfen",
+            "Anschnallgurte: Durch Drehen des Gurtschlosses lösen — Gelöst",
+            "Flugzeug: Verlassen",
+            "Fallschirm: Bei manuellem Fallschirm nach ca. 2 Sekunden Reißleine ziehen — Gezogen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hk36_em_7",
+      "title": "HK 36 · Notwasserung",
+      "branches": [
+        {
+          "id": "hk36_em_7_proc",
+          "title": "Verfahren",
+          "steps": [
+            "Fallschirmgurte: Öffnen — GEÖFFNET",
+            "Anschnallgurte: Festziehen — FESTGEZOGEN",
+            "Bremsklappen: Vor Aufsetzen voll einfahren — EINGEFAHREN",
+            "Anflug: Mit Normalgeschwindigkeit (105 km/h) anfliegen, bei Minimalgeschwindigkeit aufsetzen, Gesicht mit freiem Arm schützen — Aufgesetzt",
+            "Anschnallgurte: Nach dem Stillstand lösen — GELÖST",
+            "Kabinenhaube: Notabwurf betätigen und Haube wegdrücken — Abgeworfen",
+            "Kabine: Schnellstmöglich verlassen — Verlassen"
+          ]
+        }
+      ]
+    }
+  ]
+}

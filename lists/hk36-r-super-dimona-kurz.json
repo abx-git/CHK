@@ -1,0 +1,752 @@
+{
+  "kind": "chk.list",
+  "schemaVersion": 3,
+  "description": "Kompakte Cockpit-Kurzliste inkl. Platzrunden",
+  "aircraft": {
+    "id": "HK36-R-SUPER-DIMONA-KURZ",
+    "name": "HK 36 R Super Dimona",
+    "registration": "Kurzliste"
+  },
+  "checklist": {
+    "id": "HK36-R-SUPER-DIMONA-KURZ",
+    "aircraftId": "HK36-R-SUPER-DIMONA-KURZ",
+    "mode": "",
+    "phases": [
+      {
+        "id": "kurz_vor_dem_anlassen",
+        "title": "Vor dem Anlassen",
+        "items": [
+          {
+            "id": "kurz_vor_dem_anlassen-1",
+            "text": "Hauptbolzensicherung: Fokkernadel gesteckt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-2",
+            "text": "Ruder und Bremsklappen: Freigängig und verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-3",
+            "text": "Haube: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-4",
+            "text": "Anschnallgurte: Festgezogen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-5",
+            "text": "Parkbremse: Fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-6",
+            "text": "Kraftstoffhahn: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-7",
+            "text": "Hauptschalter: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-8",
+            "text": "Betriebsartenwahlschalter: Motorflug",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-9",
+            "text": "Kraftstoffvorrat: Geprüft",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-10",
+            "text": "Kühlklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_anlassen-11",
+            "text": "Elektrische Kraftstoffpumpe: Ein (Druckaufbau geprüft)",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_anlassen_und_warmlauf",
+        "title": "Anlassen und Warmlauf",
+        "items": [
+          {
+            "id": "kurz_anlassen_und_warmlauf-1",
+            "text": "Propellerbereich: Frei",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anlassen_und_warmlauf-2",
+            "text": "Leistungshebel: Leerlauf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anlassen_und_warmlauf-3",
+            "text": "Choke: Nach Bedarf (gezogen)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anlassen_und_warmlauf-4",
+            "text": "Zündschalter: Anlassen, dann Both",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anlassen_und_warmlauf-5",
+            "text": "Drehzahl: 1500 U/min",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anlassen_und_warmlauf-6",
+            "text": "Öldruck: Grüner Bereich (< 10 s)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anlassen_und_warmlauf-7",
+            "text": "Choke: Hineingeschoben",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anlassen_und_warmlauf-8",
+            "text": "Höhenmesser: QNH eingestellt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anlassen_und_warmlauf-9",
+            "text": "Warmlauf: Öltemperatur ≥ 50 °C",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_standlauf_triebwerkspruefung",
+        "title": "Standlauf / Triebwerksprüfung",
+        "items": [
+          {
+            "id": "kurz_standlauf_triebwerkspruefung-1",
+            "text": "Propellerprüfung (1500 U/min): Segel/Reise verstellt, Rücklauf Start, grüne Lampe ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_standlauf_triebwerkspruefung-2",
+            "text": "Magnetencheck (1500 U/min): Abfall max. 150 U/min",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_standlauf_triebwerkspruefung-3",
+            "text": "Vergaservorwärmung (1500 U/min): Geprüft, danach Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_standlauf_triebwerkspruefung-4",
+            "text": "Vollgasprüfung: 2420 ± 100 U/min",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_vor_dem_start",
+        "title": "Vor dem Start (Run-up / Line-up)",
+        "items": [
+          {
+            "id": "kurz_vor_dem_start-1",
+            "text": "Kraftstoffhahn: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-2",
+            "text": "Elektrische Kraftstoffpumpe: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-3",
+            "text": "Propeller: Automatik, max. Drehzahl",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-4",
+            "text": "Zündung: Both",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-5",
+            "text": "Trimmung: Startstellung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-6",
+            "text": "Bremsklappen: Eingefahren und verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-7",
+            "text": "Kühlklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-8",
+            "text": "Haube: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-9",
+            "text": "Gurte: Fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_vor_dem_start-10",
+            "text": "Parkbremse: Gelöst",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_nach_dem_start_steigflug",
+        "title": "Nach dem Start / Steigflug",
+        "items": [
+          {
+            "id": "hk36-kurz-start-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 90.0,
+              "minAltitudeGainMeters": 15.0
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
+          },
+          {
+            "id": "kurz_nach_dem_start_steigflug-1",
+            "text": "Steiggeschwindigkeit: ≥ 95 km/h (105 km/h bestes Steigen)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_dem_start_steigflug-2",
+            "text": "Elektrische Kraftstoffpumpe (> 100 m GND): Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_dem_start_steigflug-3",
+            "text": "Dauerdrehzahl (spätestens nach 3 min): Max. 2420 U/min",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_dem_start_steigflug-4",
+            "text": "Triebwerksanzeigen: Im grünen Bereich",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_segelflug_motor_abstellen",
+        "title": "Segelflug (Motor abstellen)",
+        "items": [
+          {
+            "id": "kurz_segelflug_motor_abstellen-1",
+            "text": "Leistungshebel: Leerlauf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_segelflug_motor_abstellen-2",
+            "text": "Kühlklappe: Zu",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_segelflug_motor_abstellen-3",
+            "text": "Zündung: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_segelflug_motor_abstellen-4",
+            "text": "Propeller: Segelstellung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_segelflug_motor_abstellen-5",
+            "text": "Betriebsartenwahlschalter: Segelflug",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_segelflug_motor_abstellen-6",
+            "text": "Bestes Gleiten: 105 km/h",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_motorneustart_im_flug",
+        "title": "Motorneustart im Flug",
+        "items": [
+          {
+            "id": "kurz_motorneustart_im_flug-1",
+            "text": "Hauptschalter: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_motorneustart_im_flug-2",
+            "text": "Betriebsartenwahlschalter: Motorflug",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_motorneustart_im_flug-3",
+            "text": "Propeller: Automatik",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_motorneustart_im_flug-4",
+            "text": "Kühlklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_motorneustart_im_flug-5",
+            "text": "Elektrische Kraftstoffpumpe: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_motorneustart_im_flug-6",
+            "text": "Leistungshebel: Leerlauf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_motorneustart_im_flug-7",
+            "text": "Zündschalter: Anlassen, dann Both",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_motorneustart_im_flug-8",
+            "text": "Öldruck: Kontrolliert",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_motorneustart_im_flug-9",
+            "text": "Leistung: Erst nach grüner Lampe erhöhen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_anflug_und_landung",
+        "title": "Anflug und Landung",
+        "items": [
+          {
+            "id": "kurz_anflug_und_landung-1",
+            "text": "Propeller: Automatik, max. Drehzahl",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anflug_und_landung-2",
+            "text": "Elektrische Kraftstoffpumpe: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anflug_und_landung-3",
+            "text": "Vergaservorwärmung: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anflug_und_landung-4",
+            "text": "Kühlklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anflug_und_landung-5",
+            "text": "Gurte: Fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anflug_und_landung-6",
+            "text": "Bremsklappen: Nach Bedarf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_anflug_und_landung-7",
+            "text": "Anfluggeschwindigkeit: 105 km/h",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "hk36-kurz-landing-sensor",
+            "text": "Landung",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "logText": "Landung",
+            "logOnComplete": true,
+            "logTag": "landing",
+            "logIncludePosition": true
+          }
+        ],
+        "loopEnabled": true,
+        "loopMode": "ask"
+      },
+      {
+        "id": "kurz_platzrunden",
+        "title": "Platzrunden",
+        "items": [
+          {
+            "id": "kurz_platzrunden-1",
+            "text": "Propeller: Automatik, max. Drehzahl",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-2",
+            "text": "Elektrische Kraftstoffpumpe: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-3",
+            "text": "Vergaservorwärmung: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-4",
+            "text": "Kühlklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-5",
+            "text": "Gurte: Fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-6",
+            "text": "Bremsklappen: Nach Bedarf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-7",
+            "text": "Anfluggeschwindigkeit: 105 km/h",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "hk36-kurz-platzrunden-landing-sensor",
+            "text": "Landung",
+            "sensorTrigger": {
+              "landingDetection": true
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "resetAltitudeOnCheckCompletion": true,
+            "logText": "Landung",
+            "logOnComplete": true,
+            "logTag": "landing",
+            "logIncludePosition": true
+          },
+          {
+            "id": "kurz_platzrunden-landzeit",
+            "text": "Landzeit: Notieren",
+            "autoCompleteFromSensor": false,
+            "logText": "Landzeit",
+            "logOnComplete": true,
+            "logTag": "landing"
+          },
+          {
+            "id": "kurz_platzrunden-8",
+            "text": "Kraftstoffhahn: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-9",
+            "text": "Elektrische Kraftstoffpumpe: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-10",
+            "text": "Propeller: Automatik, max. Drehzahl",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-11",
+            "text": "Zündung: Both",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-12",
+            "text": "Trimmung: Startstellung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-13",
+            "text": "Bremsklappen: Eingefahren und verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-14",
+            "text": "Kühlklappe: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-15",
+            "text": "Haube: Verriegelt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-16",
+            "text": "Gurte: Fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-17",
+            "text": "Parkbremse: Gelöst",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "hk36-kurz-platzrunden-start-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 90.0,
+              "minAltitudeGainMeters": 15.0
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
+          },
+          {
+            "id": "kurz_platzrunden-18",
+            "text": "Steiggeschwindigkeit: ≥ 95 km/h (105 km/h bestes Steigen)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-19",
+            "text": "Elektrische Kraftstoffpumpe: Ein (bleibt an)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_platzrunden-20",
+            "text": "Triebwerksanzeigen: Im grünen Bereich",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": true,
+        "loopMode": "ask"
+      },
+      {
+        "id": "kurz_nach_der_landung_abstellen",
+        "title": "Nach der Landung / Abstellen",
+        "items": [
+          {
+            "id": "kurz_nach_der_landung_abstellen-1",
+            "text": "Elektrische Kraftstoffpumpe: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_der_landung_abstellen-2",
+            "text": "Vergaservorwärmung: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_der_landung_abstellen-3",
+            "text": "Propeller: Startstellung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_der_landung_abstellen-4",
+            "text": "Parkbremse: Fest",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_der_landung_abstellen-5",
+            "text": "Avionik / Verbraucher: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_der_landung_abstellen-6",
+            "text": "Zündung: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_der_landung_abstellen-7",
+            "text": "Hauptschalter: Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_nach_der_landung_abstellen-8",
+            "text": "Betriebsartenwahlschalter: Segelflug",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_not_motorausfall_abheben",
+        "title": "Notverfahren: Motorausfall nach dem Abheben (< 80 m)",
+        "items": [
+          {
+            "id": "kurz_not_motorausfall_abheben-1",
+            "text": "Nachdrücken: ≥ 105 km/h halten",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_abheben-2",
+            "text": "Landung: Geradeaus landen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_abheben-3",
+            "text": "Kraftstoffhahn (vor Aufsetzen): Zu",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_abheben-4",
+            "text": "Zündung (vor Aufsetzen): Aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_abheben-5",
+            "text": "Hauptschalter (vor Aufsetzen): Aus",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_not_motorausfall_reiseflug",
+        "title": "Notverfahren: Motorausfall im Reiseflug",
+        "items": [
+          {
+            "id": "kurz_not_motorausfall_reiseflug-1",
+            "text": "Gleitflug: 105 km/h",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_reiseflug-2",
+            "text": "Kraftstoffhahn: Auf",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_reiseflug-3",
+            "text": "Elektrische Kraftstoffpumpe: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_reiseflug-4",
+            "text": "Vergaservorwärmung: Ein",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_reiseflug-5",
+            "text": "Zündung: Both",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_motorausfall_reiseflug-6",
+            "text": "Ohne Wiederanlauf: Propeller Segelstellung, Zündung Aus, Brandhahn Zu, Hauptschalter Aus, Außenlandung vorbereiten",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_not_brand_im_flug",
+        "title": "Notverfahren: Brand im Flug",
+        "items": [
+          {
+            "id": "kurz_not_brand_im_flug-1",
+            "text": "Kraftstoffhahn: Sofort zu",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_brand_im_flug-2",
+            "text": "Leistungshebel: Vollgas (bis Motor steht)",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_brand_im_flug-3",
+            "text": "Cockpitlüftung und Heizung: Zu",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_brand_im_flug-4",
+            "text": "Hauptschalter (bei Kabelbrand): Sofort aus",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_brand_im_flug-5",
+            "text": "Landung: Sofortige Notlandung",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_not_trudeln",
+        "title": "Notverfahren: Trudeln",
+        "items": [
+          {
+            "id": "kurz_not_trudeln-1",
+            "text": "Seitenruder: Vollausschlag gegen Drehrichtung",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_trudeln-2",
+            "text": "Steuerknüppel: Nachlassen bis Drehung stoppt",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_trudeln-3",
+            "text": "Ruder: Neutralisieren und weich abfangen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "kurz_not_notausstieg",
+        "title": "Notverfahren: Notausstieg",
+        "items": [
+          {
+            "id": "kurz_not_notausstieg-1",
+            "text": "Rote Haubenhebel: 180° nach hinten reißen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_notausstieg-2",
+            "text": "Haube: Nach oben-hinten wegstoßen",
+            "autoCompleteFromSensor": false
+          },
+          {
+            "id": "kurz_not_notausstieg-3",
+            "text": "Gurte: Lösen und Flugzeug verlassen",
+            "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      }
+    ]
+  }
+}

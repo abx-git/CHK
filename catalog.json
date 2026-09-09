@@ -1,0 +1,21 @@
+{
+  "kind": "chk.catalog",
+  "schemaVersion": 1,
+  "title": "CHK Checklisten",
+  "lists": [
+    {
+      "id": "HK36-R-SUPER-DIMONA",
+      "name": "HK 36 R Super Dimona",
+      "registration": "",
+      "description": "Flughandbuch-Checkliste inkl. Notverfahren",
+      "file": "lists/hk36-r-super-dimona.json"
+    },
+    {
+      "id": "HK36-R-SUPER-DIMONA-KURZ",
+      "name": "HK 36 R Super Dimona",
+      "registration": "Kurzliste",
+      "description": "Kompakte Cockpit-Kurzliste inkl. Platzrunden",
+      "file": "lists/hk36-r-super-dimona-kurz.json"
+    }
+  ]
+}
