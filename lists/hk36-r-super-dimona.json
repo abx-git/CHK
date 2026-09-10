@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "description": "Flughandbuch-Checkliste inkl. Notverfahren",
   "aircraft": {
     "id": "HK36-R-SUPER-DIMONA",
@@ -767,12 +767,14 @@
           {
             "id": "hk36-platzrunden-1",
             "text": "Steiggeschwindigkeit: ≥ 95 km/h (105 km/h bestes Steigen)",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           },
           {
             "id": "hk36-platzrunden-2",
             "text": "Triebwerksanzeigen: Im grünen Bereich",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           }
         ],
         "loopEnabled": true,

@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "description": "Tägliche Flugklarkontrolle, Betriebscheckliste und Notverfahren",
   "aircraft": {
     "id": "SF25-C-FALKE",
@@ -954,12 +954,14 @@
           {
             "id": "sf25-platzrunden-1",
             "text": "Steigfluggeschwindigkeit: Mindestens 90 km/h (ROTAX 912 A) bzw. 95 km/h (ROTAX 912 S)",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           },
           {
             "id": "sf25-platzrunden-2",
             "text": "Triebwerksanzeigen: Im grünen Bereich",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           }
         ],
         "loopEnabled": true,

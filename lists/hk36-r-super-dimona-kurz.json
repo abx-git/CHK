@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "description": "Kompakte Cockpit-Kurzliste inkl. Platzrunden",
   "aircraft": {
     "id": "HK36-R-SUPER-DIMONA-KURZ",
@@ -236,7 +236,8 @@
           {
             "id": "kurz_nach_dem_start_steigflug-1",
             "text": "Steiggeschwindigkeit: ≥ 95 km/h (105 km/h bestes Steigen)",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           },
           {
             "id": "kurz_nach_dem_start_steigflug-2",
@@ -246,12 +247,14 @@
           {
             "id": "kurz_nach_dem_start_steigflug-3",
             "text": "Dauerdrehzahl (spätestens nach 3 min): Max. 2420 U/min",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           },
           {
             "id": "kurz_nach_dem_start_steigflug-4",
             "text": "Triebwerksanzeigen: Im grünen Bereich",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           }
         ],
         "loopEnabled": false,
@@ -438,12 +441,14 @@
           {
             "id": "kurz_platzrunden-18",
             "text": "Steiggeschwindigkeit: ≥ 95 km/h (105 km/h bestes Steigen)",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           },
           {
             "id": "kurz_platzrunden-20",
             "text": "Triebwerksanzeigen: Im grünen Bereich",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           }
         ],
         "loopEnabled": true,

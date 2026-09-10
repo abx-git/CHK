@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "description": "Standard-Checkliste inkl. Schleppbetrieb und Notverfahren",
   "aircraft": {
     "id": "BREEZER-B400-6-916IS",
@@ -305,7 +305,8 @@
           {
             "id": "breezer-platzrunden-2",
             "text": "EMU / Anzeigen: Im grünen Bereich",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           }
         ],
         "loopEnabled": true,
