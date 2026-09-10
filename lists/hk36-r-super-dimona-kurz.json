@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 6,
+  "schemaVersion": 8,
   "description": "Kompakte Cockpit-Kurzliste inkl. Platzrunden",
   "aircraft": {
     "id": "HK36-R-SUPER-DIMONA-KURZ",
@@ -292,7 +292,8 @@
           {
             "id": "kurz_segelflug_motor_abstellen-6",
             "text": "Bestes Gleiten: 105 km/h",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           }
         ],
         "loopEnabled": false,
@@ -345,7 +346,8 @@
           {
             "id": "kurz_motorneustart_im_flug-9",
             "text": "Leistung: Erst nach grüner Lampe erhöhen",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           }
         ],
         "loopEnabled": false,
@@ -383,12 +385,14 @@
           {
             "id": "kurz_anflug_und_landung-6",
             "text": "Bremsklappen: Nach Bedarf",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           },
           {
             "id": "kurz_anflug_und_landung-7",
             "text": "Anfluggeschwindigkeit: 105 km/h",
-            "autoCompleteFromSensor": false
+            "autoCompleteFromSensor": false,
+            "infoOnly": true
           },
           {
             "id": "hk36-kurz-landing-sensor",

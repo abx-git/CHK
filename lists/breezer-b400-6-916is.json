@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 6,
+  "schemaVersion": 8,
   "description": "Standard-Checkliste inkl. Schleppbetrieb und Notverfahren",
   "aircraft": {
     "id": "BREEZER-B400-6-916IS",

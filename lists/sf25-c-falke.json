@@ -1,6 +1,6 @@
 {
   "kind": "chk.list",
-  "schemaVersion": 6,
+  "schemaVersion": 8,
   "description": "Tägliche Flugklarkontrolle, Betriebscheckliste und Notverfahren",
   "aircraft": {
     "id": "SF25-C-FALKE",
@@ -527,24 +527,9 @@
         "loopMode": "manual"
       },
       {
-        "id": "sf25_start_steigflug",
-        "title": "Start und Steigflug (Eigenstart)",
+        "id": "sf25_vor_dem_start",
+        "title": "Vor dem Start",
         "items": [
-          {
-            "id": "sf25-eigenstart-sensor",
-            "text": "Start",
-            "sensorTrigger": {
-              "minSpeedKmh": 90.0,
-              "minAltitudeGainMeters": 15.0
-            },
-            "autoCompleteFromSensor": true,
-            "sensorOnlyWhenNext": false,
-            "setReferenceAltitudeWhenNext": true,
-            "logText": "Start",
-            "logOnComplete": true,
-            "logTag": "start",
-            "logIncludePosition": true
-          },
           {
             "id": "sf25_start_steigflug-1",
             "text": "Startcheck (Instrumentenbrett): Vollständig durchgeführt",
@@ -589,6 +574,29 @@
             "id": "sf25_start_steigflug-9",
             "text": "Elektrische Kraftstoffzusatzpumpe (falls vorhanden): Ein",
             "autoCompleteFromSensor": false
+          }
+        ],
+        "loopEnabled": false,
+        "loopMode": "manual"
+      },
+      {
+        "id": "sf25_start_steigflug",
+        "title": "Start und Steigflug (Eigenstart)",
+        "items": [
+          {
+            "id": "sf25-eigenstart-sensor",
+            "text": "Start",
+            "sensorTrigger": {
+              "minSpeedKmh": 90.0,
+              "minAltitudeGainMeters": 15.0
+            },
+            "autoCompleteFromSensor": true,
+            "sensorOnlyWhenNext": false,
+            "setReferenceAltitudeWhenNext": true,
+            "logText": "Start",
+            "logOnComplete": true,
+            "logTag": "start",
+            "logIncludePosition": true
           },
           {
             "id": "sf25_start_steigflug-10",
